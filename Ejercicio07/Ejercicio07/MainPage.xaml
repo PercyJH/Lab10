@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio07.MainPage">
+
+    <ContentPage.Resources>
+        <StyleSheet>
+            <![CDATA[
+              StackLayout > Button {
+                background-color: Orange;
+                color: White;
+                border-radius: 10;
+              }
+            ]]>
+        </StyleSheet>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Margin="20,10,20,20">
+                <Button x:Name="Item1" Text="ViewToViewDemo"/>
+                <Button x:Name="Item2" Text="BindingModeDemo" />
+                <Button x:Name="Item3" Text="ListViewDemo" />
+                <Button x:Name="Item4" Text="PickerDemo" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
